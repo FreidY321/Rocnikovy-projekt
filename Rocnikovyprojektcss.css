@@ -1,0 +1,157 @@
+body {
+    font-family: Rubik, Arial;
+    background-color: #393E46;
+    min-height: 950px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+a:active{
+    opacity: 0.9;
+}
+.hlavicka {
+    padding: 0 120px 0 90px;
+    position: sticky;
+    top: 0;
+    background-color: #222831;
+    height: 120px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    
+}
+#logo{
+    width: 120px;
+}
+.hlavicka-tlacitka{
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 22px;
+    text-align: center;
+}
+.hlavicka-tlacitko{
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+.hlavicka-tlacitko:hover{
+    background-color: #D65A31;
+    transition: all 0.25s ;
+}
+.telostranky {
+    flex: 1;
+}
+.hlavni-telo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 320px 20px 100px;
+}
+.radek-doporuceni{
+    flex: 300px;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    margin-bottom: 40px;
+}
+.nadpis-bunek{
+    font-size: 30px;
+    display: inline-block;
+    width: fit-content;
+}
+.clanky, .majory, .tymy{
+    display: grid;
+    padding: 10px 0 10px 20px;
+    column-gap: 10px;
+}
+.clanky{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.clanek{
+    background-color: #222831;
+    border-radius: 25px;
+    border: 2px solid #222831;
+}
+.clanek:hover{
+    border: 3px solid #EEEEEE;
+}
+.uvodni-fotka{
+text-align: center;
+}
+.uvodni-fotka-clanku{
+    width: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.popis-clanku{
+    max-height: 120px;
+    padding: 10px 20px 0 20px;
+}
+.nadpis-clanku{
+    font-size: 28px;
+    text-align: center;
+}
+.datum{
+    font-size: 14px;
+    padding: 8px 0 0 0;
+    text-align: right;
+    color: #bdbdbd;
+}
+.majory, .tymy{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nazev-majoru, .nazev-tymu{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.uvodni-fotka-majoru{
+    height: 100px;
+    padding-top: 20px;
+}
+.nazev-tymu{
+    padding-top: 40px;
+}
+.reklama{
+    position: fixed;
+    right: 50px;
+    top: 155px;
+    height: 540px;
+}
+#reklamni-banner{
+    height: 100%;
+}
+.paticka {
+    position: static;
+    bottom: 0;
+    right: 0;
+    background-color: #222831;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#popis{
+    max-width: 610px;
+    display: grid;
+}
+#popis .paticka-nadpis{
+    text-align: center;
+}
+.paticka-nadpis{
+    font-size: 20px;
+}
+.paticka-text{
+    font-size: 13px;
+    padding: 8px;
+    line-height: 19px;
+}
