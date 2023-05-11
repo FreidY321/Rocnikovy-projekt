@@ -33,9 +33,9 @@ a:active{
     width: 120px;
 }
 .hlavicka-tlacitka{
-    width: 700px;
+    width: 900px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     font-size: 22px;
     text-align: center;
 }
@@ -54,6 +54,9 @@ a:active{
     display: flex;
     flex-direction: column;
     padding: 20px 320px 20px 100px;
+}
+.hlavni-telo img{
+    pointer-events: none
 }
 .radek-doporuceni{
     flex: 300px;

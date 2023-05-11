@@ -1,0 +1,132 @@
+body {
+  font-family: Rubik, Arial;
+  background-color: #393E46;
+  min-height: 980px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: #EEEEEE;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #EEEEEE;
+}
+a:active{
+  opacity: 0.9;
+}
+.hlavicka {
+  padding: 0 120px 0 90px;
+  position: sticky;
+  top: 0;
+  background-color: #222831;
+  height: 120px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+#logo{
+  width: 120px;
+}
+.hlavicka-tlacitka{
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-size: 22px;
+  text-align: center;
+}
+.hlavicka-tlacitko{
+  padding: 10px 20px 10px 20px;
+  border-radius: 25px;
+}
+.hlavicka-tlacitko:hover{
+  background-color: #D65A31;
+  transition: all 0.5s;
+}
+.telostranky {
+  flex: 1;
+}
+.hlavni-telo {
+  padding: 20px 280px 20px 150px;
+}
+.flex{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  justify-items: center;
+  align-items: center;
+}
+.flex1{
+  flex: 1;
+}
+h2{
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+}
+h3{
+  font-size: 30px;
+  margin: 50px  20px 20px 20px;
+  text-align: left;
+  color: #EEEEEE;
+}
+table{
+  margin: 25px 0 0 20px;
+}
+td{
+  font-size: 20px;
+  padding: 5px 80px 15px 5px;
+}
+#majitel{
+  font-size: 20px;
+}
+#mapa{
+  width: 80%;
+  display: block;
+  margin: 50px auto 25px auto;
+  border-radius: 25px;
+}
+#adresa{
+  display: block;
+  font-size: 25px;
+  text-align: center;
+}
+.reklama{
+  position: fixed;
+  right: 50px;
+  top: 155px;
+  height: 540px;
+}
+#reklamni-banner{
+  height: 100%;
+}
+.paticka {
+  position: static;
+  bottom: 0;
+  right: 0;
+  background-color: #222831;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#popis{
+  max-width: 610px;
+  display: grid;
+}
+#popis .paticka-nadpis{
+  text-align: center;
+}
+.paticka-nadpis{
+  font-size: 20px;
+}
+.paticka-text{
+  font-size: 13px;
+  padding: 8px;
+  line-height: 19px;
+}
